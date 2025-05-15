@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  background-color: rgb(10, 10, 10);
+}
 .container {
   display: flex;
   flex-flow: row nowrap;
@@ -7,7 +11,6 @@
   align-items: stretch;
   justify-items: stretch;
   height: 100vh;
-  border: solid black;
   cursor: pointer;
   opacity: 80%;
   font-weight: bold;
@@ -28,7 +31,7 @@
 
 .container > div:hover {
   font-size: 40px;
-  flex-basis: 300px;
+  flex-basis: 500px;
   transition: 0.2s ease-in-out;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.342);
   padding: 0 5px 0 5px;
